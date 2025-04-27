@@ -2,8 +2,7 @@ from iointel import Agent, Workflow
 import os
 
 # 1. API anahtarlarını ayarla
-os.environ["IOINTEL_API_KEY"] = "io-v2-eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJvd25lciI6ImU0MTNlYTcwLTc2ZDMtNGViYi05ZjRlLTU0OTJkYzhlZjM5MCIsImV4cCI6NDg5OTI2MjQ5Nn0.ka9Nog3-HHDxowTRRpns3Y3O5y_K4z-GxZXUxlc-qeY4j__ZD8hy0ufDzh4Ykj1BGyqoNZ0Ho0IsPPpxSPGNbg"  # Buraya kendi io.net key'ini koy
-
+os.environ["IOINTEL_API_KEY"] = "Apı keyinizi buraya yazın"
 # 2. Başlangıç + Nested Ölçüm Verilerini birleştir
 quantum_summary_text = f"""
 Başlangıç Quantum Devresi Ölçüm Sonuçları:
